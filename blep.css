@@ -1,0 +1,43 @@
+html, body{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+h1{
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	justify-content: space-around;
+	height: 40%;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	border-radius: 5px;
+}
+
+#left{
+}
+
+#right{
+}
+
+.box > h2{
+	height: 20px;
+}
+.box > textarea{
+	height: 100%;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	resize: none;
+}
